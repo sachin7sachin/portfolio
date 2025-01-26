@@ -1,0 +1,69 @@
+#education{
+  height: calc(100vh - 5rem);
+  width: 100vw;
+  max-width: 90vw;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.4rem;
+  font-weight: 200;
+}
+
+.eduh1{
+  margin-bottom: 30px;
+  font-size: 25px;
+}
+
+.tenth{
+  background-color: rgb(40, 40, 40);
+  height: 20%;
+  width: 90vw;
+  margin: 0.6rem 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 2rem;
+  
+}
+
+
+
+.inter{
+  background-color: rgb(40, 40, 40);
+  height: 20%;
+  width: 90vw;
+  margin: 0.6rem 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 2rem;
+
+}
+
+.graduation{
+  background-color: rgb(40, 40, 40);
+  height: 20%;
+  width: 90vw;
+  margin: 0.6rem 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 2rem;
+}
+
+
+@media screen and (max-width : 500px) {
+  #education{
+    font-size: 1rem;
+  }
+  .eduh1{
+    margin: 25px;
+    font-size: 20px;
+  }
+}
+  

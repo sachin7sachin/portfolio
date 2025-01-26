@@ -1,0 +1,39 @@
+#links{
+  height: calc(100vh - 5rem);
+  width: 100vw;
+  max-width: 90vw;
+  margin: 5rem auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* position: relative;
+  z-index: -1;
+  bottom: 200px; */
+
+}
+
+.linksH1{
+  margin-bottom: 30px;
+  font-size: 25px;
+}
+
+.linksContainer{
+  /* height: 12.5rem; */
+  width: 23rem;
+  background-color: rgb(40, 40, 40);
+  border-radius: 1.25rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+@media screen and (max-width : 500px) {
+  .linksH1{
+    margin-bottom: 25px;
+    font-size: 20px;
+  }
+  
+  
+}

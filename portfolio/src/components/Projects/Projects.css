@@ -1,0 +1,120 @@
+#projects{
+  height: calc(100vh - 5rem);
+  width: 100vw;
+  max-width: 90vw;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* flex-wrap: wrap; */
+  
+}
+
+.projectsh1{
+  margin-bottom: 30px;
+  font-size: 25px;
+}
+
+.projectContainer{
+  font-size: 1.5rem;
+  /* height: 60%; */
+  width: 80%;
+  background-color: rgb(40, 40, 40);
+  border-radius: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* flex-wrap: wrap; */
+  text-align: left;
+  padding: 1rem;
+  /* row-gap: 0.5rem; */
+}
+
+.major{
+  font-weight: 600;
+  text-align: center;
+}
+
+.title{
+  width: 100%;
+  text-align: left;
+  padding-left: 1.5rem;
+  font-weight: 600;
+}
+
+.tech{
+  font-weight: 600;
+  width: 100%;
+  text-align: left;
+  padding-left: 1.5rem;
+}
+
+.objective{
+  font-weight: 600;
+  width: 100%;
+  text-align: justify;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+.titleContext{
+  font-weight: 200;
+  font-size: 1.25rem;
+
+}
+
+.techContext{
+  font-size: 1.25rem;
+  font-weight: 200;
+}
+
+.objectiveContext{
+  font-weight: 200;
+  font-size: 1.25rem;
+}
+
+.more{
+  /* height: 20%; */
+  width: 50%;
+  background-color: rgb(40, 40, 40);
+  border-radius: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 1.25rem;
+}
+
+.morePara{
+  font-size: 1.25rem;
+  margin: 0.5rem;
+}
+
+
+@media screen and (max-width : 500px) {
+  .projectContainer{
+    font-size: 1.25rem;
+  }
+  .projectsh1{
+    margin: 25px;
+    font-size: 20px;
+  }
+  .titleContext{
+    font-size: 1.1rem;
+  
+  }
+  
+  .techContext{
+    font-size: 1.1rem;
+  }
+  
+  .objectiveContext{
+    font-size: 1.1rem;
+  }
+  .morePara{
+    font-size: 1.1rem;
+    margin: 0.5rem;
+  }
+}
